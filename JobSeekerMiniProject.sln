@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject", "JobSeekerMiniProject\JobSeekerMiniProject.csproj", "{5AE5D96D-B691-4493-8904-61C9D1E747BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject.Domain", "JobSeekerMiniProject.Domain\JobSeekerMiniProject.Domain.csproj", "{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE5D96D-B691-4493-8904-61C9D1E747BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE5D96D-B691-4493-8904-61C9D1E747BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE5D96D-B691-4493-8904-61C9D1E747BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE5D96D-B691-4493-8904-61C9D1E747BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28027714-2EC5-49DE-899D-79628B464AFE}
+	EndGlobalSection
+EndGlobal

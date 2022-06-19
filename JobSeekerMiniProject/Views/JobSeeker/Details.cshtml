@@ -1,0 +1,17 @@
+﻿@model IEnumerable<JobSeekerViewModel>
+@{
+    ViewData["Title"] = "Job Seeker";
+}
+
+<h2>All time job seekers</h2>
+
+@foreach (var item in Model) {
+    <div class="row">
+        <span>@item.Name</span>
+        <span>@item.Email</span>
+        <span>@item.Phone</span>
+        <span>@item.Address</span>
+        <span>@item.Skills</span>
+        <span>@item.DateInserted</span>
+    </div>
+}
