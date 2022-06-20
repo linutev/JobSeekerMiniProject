@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject", "JobSeekerMiniProject\JobSeekerMiniProject.csproj", "{5AE5D96D-B691-4493-8904-61C9D1E747BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobSeekerMiniProject", "JobSeekerMiniProject\JobSeekerMiniProject.csproj", "{5AE5D96D-B691-4493-8904-61C9D1E747BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject.Domain", "JobSeekerMiniProject.Domain\JobSeekerMiniProject.Domain.csproj", "{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobSeekerMiniProject.Domain", "JobSeekerMiniProject.Domain\JobSeekerMiniProject.Domain.csproj", "{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerAPI", "JobSeekerAPI\JobSeekerAPI.csproj", "{1BBD5327-B67F-49F8-B8CF-F686AFDDB34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject.Repository", "JobSeekerMiniProject.Repository\JobSeekerMiniProject.Repository.csproj", "{6644C6D7-8614-4D54-9A58-1D38E037D9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeekerMiniProject.Interfaces", "JobSeekerMiniProject.Interfaces\JobSeekerMiniProject.Interfaces.csproj", "{8101A0C3-E9EB-489D-8193-26BE7C48B4BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C65A659-A1DF-42BD-8A4D-080FA77C99F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBD5327-B67F-49F8-B8CF-F686AFDDB34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBD5327-B67F-49F8-B8CF-F686AFDDB34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBD5327-B67F-49F8-B8CF-F686AFDDB34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBD5327-B67F-49F8-B8CF-F686AFDDB34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6644C6D7-8614-4D54-9A58-1D38E037D9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6644C6D7-8614-4D54-9A58-1D38E037D9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6644C6D7-8614-4D54-9A58-1D38E037D9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6644C6D7-8614-4D54-9A58-1D38E037D9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8101A0C3-E9EB-489D-8193-26BE7C48B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8101A0C3-E9EB-489D-8193-26BE7C48B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8101A0C3-E9EB-489D-8193-26BE7C48B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8101A0C3-E9EB-489D-8193-26BE7C48B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\bin\Debug\net6.0\JobSeekerMiniProject.Interfaces.deps.json
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\bin\Debug\net6.0\JobSeekerMiniProject.Interfaces.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\bin\Debug\net6.0\JobSeekerMiniProject.Interfaces.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\bin\Debug\net6.0\JobSeekerMiniProject.Domain.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\bin\Debug\net6.0\JobSeekerMiniProject.Domain.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.csproj.AssemblyReference.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.AssemblyInfoInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.AssemblyInfo.cs
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.csproj.CoreCompileInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.csproj.CopyComplete
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\refint\JobSeekerMiniProject.Interfaces.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\JobSeekerMiniProject.Interfaces.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Interfaces\obj\Debug\net6.0\ref\JobSeekerMiniProject.Interfaces.dll

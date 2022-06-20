@@ -11,14 +11,14 @@ namespace JobSeekerMiniProject.Controllers
 {
     public class JobSeekerController : Controller
     {
-        //JobSeekerContext _dbContext = new JobSeekerContext(new DbContextOptions<JobSeekerContext>());
+        JobSeekerContext _dbContext = new JobSeekerContext(new DbContextOptions<JobSeekerContext>());
 
-        private readonly JobSeekerContext _dbContext;
+        //private readonly JobSeekerContext _dbContext;
 
-        public JobSeekerController(JobSeekerContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
+        //public JobSeekerController(JobSeekerContext dbContext)
+        //{
+        //    _dbContext = dbContext;
+        //}
 
         [HttpGet]
         public IActionResult Index()

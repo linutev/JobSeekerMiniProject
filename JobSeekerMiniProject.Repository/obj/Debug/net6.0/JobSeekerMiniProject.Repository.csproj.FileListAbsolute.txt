@@ -1,0 +1,17 @@
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Repository.deps.json
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Repository.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Repository.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Domain.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Interfaces.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Interfaces.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\bin\Debug\net6.0\JobSeekerMiniProject.Domain.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.csproj.AssemblyReference.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.AssemblyInfoInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.AssemblyInfo.cs
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.csproj.CoreCompileInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.csproj.CopyComplete
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\refint\JobSeekerMiniProject.Repository.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\JobSeekerMiniProject.Repository.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Repository\obj\Debug\net6.0\ref\JobSeekerMiniProject.Repository.dll

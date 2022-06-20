@@ -15,7 +15,16 @@ namespace JobSeekerMiniProject
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<JobSeekerContext>(options => options.UseSqlite(Configuration.GetConnectionString("JobSeekerConnectionString")));
+            //EF setup
+            services.AddDbContext<JobSeekerContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("InterviewsContext")));
+
+            //Setup config
+            IConfiguration config = new ConfigurationBuilder()
+               .AddJsonFile("appsettings.json", true, true)
+               .Build();
+
             services.AddControllersWithViews();
         }
     }
