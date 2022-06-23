@@ -1,0 +1,15 @@
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\bin\Debug\net6.0\JobSeekerMiniProject.Database.deps.json
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\bin\Debug\net6.0\JobSeekerMiniProject.Database.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\bin\Debug\net6.0\JobSeekerMiniProject.Database.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\bin\Debug\net6.0\JobSeekerMiniProject.Domain.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\bin\Debug\net6.0\JobSeekerMiniProject.Domain.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.csproj.AssemblyReference.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.AssemblyInfoInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.AssemblyInfo.cs
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.csproj.CoreCompileInputs.cache
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.csproj.CopyComplete
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\refint\JobSeekerMiniProject.Database.dll
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\JobSeekerMiniProject.Database.pdb
+C:\Repos\JobSeekerMiniProject\JobSeekerMiniProject.Database\obj\Debug\net6.0\ref\JobSeekerMiniProject.Database.dll

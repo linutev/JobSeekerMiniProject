@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O0Y0t9MKORrSSNIyCb6YofX7+yB0+X5KA9E/GEBpJDz33921oc3hs4ZZtB0tOltRx3VywT4s/Rv0JVG4zdO3aA==",
+  "dgSpecHash": "wwMpg0NbDVu/E049T61m5McKD+XYY/LLkqY4enllYVeGm4enT61xc43d14A36KJ5ZldJVMCVA2O8EEPXNyP3EQ==",
   "success": true,
   "projectFilePath": "C:\\Repos\\JobSeekerMiniProject\\JobSeekerMiniProject\\JobSeekerMiniProject.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\linavaitkiene\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

@@ -4,15 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\JobSeekerMiniProject.Database\JobSeekerMiniProject.Database.csproj" />
     <ProjectReference Include="..\JobSeekerMiniProject.Domain\JobSeekerMiniProject.Domain.csproj" />
     <ProjectReference Include="..\JobSeekerMiniProject.Interfaces\JobSeekerMiniProject.Interfaces.csproj" />
     <ProjectReference Include="..\JobSeekerMiniProject.Repository\JobSeekerMiniProject.Repository.csproj" />

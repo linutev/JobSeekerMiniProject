@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\JobSeekerMiniProject.Database\JobSeekerMiniProject.Database.csproj" />
     <ProjectReference Include="..\JobSeekerMiniProject.Interfaces\JobSeekerMiniProject.Interfaces.csproj" />
   </ItemGroup>
 

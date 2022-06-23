@@ -25,6 +25,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JobSeekerMiniProject.Database\JobSeekerMiniProject.Database.csproj" />
     <ProjectReference Include="..\JobSeekerMiniProject.Domain\JobSeekerMiniProject.Domain.csproj" />
+    <ProjectReference Include="..\JobSeekerMiniProject.Interfaces\JobSeekerMiniProject.Interfaces.csproj" />
+    <ProjectReference Include="..\JobSeekerMiniProject.Repository\JobSeekerMiniProject.Repository.csproj" />
   </ItemGroup>
 </Project>

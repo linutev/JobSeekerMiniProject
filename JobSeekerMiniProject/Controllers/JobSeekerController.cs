@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using JobSeekerMiniProject.Domain.Data;
+using JobSeekerMiniProject.Database;
+using JobSeekerMiniProject.Interfaces;
 using JobSeekerMiniProject.Models;
+using JobSeekerMiniProject.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,14 +13,12 @@ namespace JobSeekerMiniProject.Controllers
 {
     public class JobSeekerController : Controller
     {
-        JobSeekerContext _dbContext = new JobSeekerContext(new DbContextOptions<JobSeekerContext>());
+        private readonly IJobSeekerRepository _jobSeekerRepository;
 
-        //private readonly JobSeekerContext _dbContext;
-
-        //public JobSeekerController(JobSeekerContext dbContext)
-        //{
-        //    _dbContext = dbContext;
-        //}
+        public JobSeekerController(IJobSeekerRepository jobSeekerRepository)
+        {
+            _jobSeekerRepository = jobSeekerRepository;
+        }
 
         [HttpGet]
         public IActionResult Index()
@@ -29,7 +29,21 @@ namespace JobSeekerMiniProject.Controllers
         [HttpGet]
         public async Task<IActionResult> Details()
         {
-            return View(await _dbContext.JobSeekers.ToListAsync());
+            try
+            {
+                return View(await _jobSeekerRepository.GetJobSeekers());
+            }
+            catch (KeyNotFoundException)
+            {
+                TempData["ErrorMessage"] = "No job seekers found.";
+                return View();
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "Error searching for job seekers.";
+                return View();
+            }
+            
         }
 
         [HttpPost]
@@ -49,8 +63,8 @@ namespace JobSeekerMiniProject.Controllers
                         DateInserted = DateTime.Now
                     };
 
-                    _dbContext.JobSeekers.Add(jobSeekerViewModel);
-                    _dbContext.SaveChanges();
+                    // Call repository 
+                    await _jobSeekerRepository.AddJobSeeker(jobSeekerViewModel);
 
                     TempData["SuccessMessage"] = "Your request successfully submitted.";
 

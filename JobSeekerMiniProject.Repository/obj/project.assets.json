@@ -195,6 +195,19 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -817,6 +830,21 @@
           }
         }
       },
+      "JobSeekerMiniProject.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "JobSeekerMiniProject.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.Extensions.Configuration": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/JobSeekerMiniProject.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobSeekerMiniProject.Database.dll": {}
+        }
+      },
       "JobSeekerMiniProject.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1152,6 +1180,25 @@
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
         "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -2281,6 +2328,11 @@
         "version.txt"
       ]
     },
+    "JobSeekerMiniProject.Database/1.0.0": {
+      "type": "project",
+      "path": "../JobSeekerMiniProject.Database/JobSeekerMiniProject.Database.csproj",
+      "msbuildProject": "../JobSeekerMiniProject.Database/JobSeekerMiniProject.Database.csproj"
+    },
     "JobSeekerMiniProject.Domain/1.0.0": {
       "type": "project",
       "path": "../JobSeekerMiniProject.Domain/JobSeekerMiniProject.Domain.csproj",
@@ -2294,6 +2346,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "JobSeekerMiniProject.Database >= 1.0.0",
       "JobSeekerMiniProject.Interfaces >= 1.0.0"
     ]
   },
@@ -2329,6 +2382,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Repos\\JobSeekerMiniProject\\JobSeekerMiniProject.Database\\JobSeekerMiniProject.Database.csproj": {
+              "projectPath": "C:\\Repos\\JobSeekerMiniProject\\JobSeekerMiniProject.Database\\JobSeekerMiniProject.Database.csproj"
+            },
             "C:\\Repos\\JobSeekerMiniProject\\JobSeekerMiniProject.Interfaces\\JobSeekerMiniProject.Interfaces.csproj": {
               "projectPath": "C:\\Repos\\JobSeekerMiniProject\\JobSeekerMiniProject.Interfaces\\JobSeekerMiniProject.Interfaces.csproj"
             }
